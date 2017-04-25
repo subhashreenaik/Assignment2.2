@@ -1,0 +1,8 @@
+touch max-temp.txt
+gedit max-temp.txt
+start-all.sh
+jps
+hadoop fs -ls/
+hadoop fs -mkdir /user/acadgild/hadoop
+hadoop fs -put max-temp.txt /user/acadgild/hadoop
+hadoop fs -chmod 666 /user/acadgild/hadoop/max-temp.txt
